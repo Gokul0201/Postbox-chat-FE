@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Logo from "../assets/logo.svg";
 import Welcome from "./Welcome"
 import EmailIcon from '@mui/icons-material/Email';
-import Avatar from '@mui/material/avatar';
+import Avatar from '@mui/material/Avatar';
 
 export default function Contacts({ contacts, changeChat }) {
   const [currentUserName, setCurrentUserName] = useState(undefined);
