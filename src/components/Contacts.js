@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
-import Logo from "../assets/logo.svg";
+
 import Welcome from "./Welcome"
 import EmailIcon from '@mui/icons-material/Email';
 import Avatar from '@mui/material/Avatar';
